@@ -12,3 +12,6 @@ def home(request):
 def facto(request,n):
     n = int(n)
     return HttpResponse("Factorial is {}".format(factorial(n)))
+
+def child(request):
+    return render(request,"child.html")

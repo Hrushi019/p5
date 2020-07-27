@@ -7,4 +7,5 @@ urlpatterns = [
     path('home',views.home,name="home"),
     path('fact/<n>',views.facto,name="facto"),
     #path('secondary suffix',address of function, name of mapping)
+    path('child/',views.child,name="child"),
 ]
